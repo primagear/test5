@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>博客</title>
+    <link rel="stylesheet" type="text/css" href="/public/css/index.css">
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"
+            integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
+            crossorigin="anonymous"></script>
+    <script src="/public/js/index.js"></script>
+    <script src="/public/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <header>
+        <div>This is header</div>
+    </header>
+
+    <nav>
+        <ul class="navtabs">
+            <li><a href="#" class="active">首页</a></li>
+            <li><a href="#">HTML5</a></li>
+            <li><a href="#">CSS</a></li>
+            <li><a href="#">JAVASCRIPT</a></li>
+            <li><a href="#">PHP</a></li>
+            <li><a href="#">JAVA</a></li>
+        </ul>
+    </nav>
+
+    <div class="context">
+        <div class="mainleft">
+            <div>
+                <h2>1st meeting minutes</h2>
+                作者:<span>admin</span>
+                时间:<span>admin</span>
+                阅读:<span>admin</span>
+                评论:<span>admin</span>
+                <p>minutes</p>
+            </div>
+        </div>
+        <div class="mainright">
+
+
+            <div id="adminPanel">
+                <div><h4 class="title">用户信息</h4></div>
+                <div class="btm"></div>
+                <div class="line"><span class="username">username</span></div>
+                <div class="line"><span class="info">你好，你是管理员</span></div>
+                <div class="line"><span>
+                        <a href="javascript:;" id="quit">退出</a>
+                    </span>
+                </div>
+            </div>
+
+
+            <div class="mainrighttop" id="login">
+                <div><h4 class="title">登录</h4></div>
+                <div class="btm"></div>
+                <div class="line"><span class="inli txfr">用户名：</span><input type="text" name="username"/></div>
+                <div class="line"><span class="inli txfr">密码：</span><input type="text" name="password"/></div>
+                <div class="btn"><input type="button" value="登录" /></div>
+                <p>还没注册？<a href="javascript:;">马上注册</a></p>
+                <p class="warning"></p>
+            </div>
+            <div class="mainrightbottom" id="regis">
+                <div><h4 class="title">注册</h4></div>
+                <div class="btm"></div>
+                <div class="line"><span class="inli txfr">用户名：</span><input type="text" name="username"/></div>
+                <div class="line"><span class="inli txfr">密码：</span><input type="text" name="password"/></div>
+                <div class="line"><span class="inli txfr">确认密码：</span><input type="text" name="repassword"/></div>
+                <div class="btn"><input type="button" value="注册" /></div>
+                <p>已有账号？<a href="javascript:;">马上登录</a></p>
+                <p class="warning"></p>
+            </div>
+
+
+        </div>
+    </div>
+
+</body>
+</html>
